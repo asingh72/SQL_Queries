@@ -1,0 +1,1 @@
+select pid, name from products where discnt_rate > 0.1 and (qoh-10) >= qoh_threshold;
